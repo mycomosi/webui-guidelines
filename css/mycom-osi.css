@@ -1,0 +1,402 @@
+@font-face {
+      font-family: OpenSans-Regular;
+      src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+      font-family: OpenSans-Bold;
+      src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+      font-family: OpenSans-Light;
+      src: url('../fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+      font-family: OpenSans-Italic;
+      src: url('../fonts/OpenSans-Italic.ttf');
+}
+
+body {
+      font-family: OpenSans-Regular;
+      color: #FFFFFF;
+}
+
+header {
+      font-size: 14px;
+      /* MYCOM OSI BLUE */
+      color: #00617F;
+      ;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+
+table {
+   border: 1px solid rgba(193,198,200, 1);
+   margin: 5px 5px 5px 5px;
+}
+thead {
+   background-color: rgba(0,97,127,1);
+   color: white;
+}
+
+tbody {
+   color: #666666;
+}
+
+
+div.loginpage {
+  background-image: url("../gfx/mycomosi-network-picture.png");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: right bottom;
+  height: 100%;
+}
+
+div.loginpage_title { 
+   position: relative;
+   padding: 170px 0px 0px 0px;
+   max-width: 600px;
+   margin: auto;
+}
+
+span.loginpage_title_logo {
+   position: absolute;
+   left: 0px;
+   bottom: 0px;
+}
+
+span.loginpage_title_filler {
+   position: absolute;
+   width: 100px;
+   bottom: 0px;
+}
+
+span.loginpage_title_productname {
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+   color: #00617F;
+   font-size: 24px;
+   font-weight: bold;
+   padding: 0px 0px 15px 0px;
+}
+
+div.loginpage_dialog {
+   position: relative;
+   margin: auto;
+   margin-top: 45px;
+   background-color: rgba(193,198,200,0.1);
+   max-width: 312px;
+   padding: 32px 20px 30px 20px;
+}
+
+div.loginpage_dialog_title {
+   color: #00617F;
+   font-size: 24px;
+   padding-bottom: 14px;
+   border-bottom: solid 1px #00617F;
+   margin-bottom: 20px;
+}
+
+div.loginpage_dialog_login {
+  margin: auto;
+  width: 100%;
+}
+
+div.loginpage_dialog_password {
+  margin: auto;
+  width: 100%;
+}
+
+span.loginpage_dialog_icon {
+  color:  #00617F;
+  font-size: 24px;
+  vertical-align: sub;
+}
+
+span.loginpage_dialog_icon-password {
+   margin-right: 3px;
+}
+
+input.loginpage_dialog_text {
+  width: 89%;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  font-family: OpenSans-Regular;
+  font-size: 13px;
+  height: 25px;
+  color: rgb(102, 102, 102);
+  border: 1px solid rgba(0, 97, 127, 0.1);
+  padding-left: 4px;
+}
+
+
+input.loginpage_dialog_submit {
+  display: block;
+  margin: auto;
+  margin-top: 38px;
+  width: 100%;
+  color: #EEEEEE;
+  background-color: #84BD00;;
+  border: none;
+  padding: 10px 20px;
+  font-family: OpenSans-Regular;
+}
+
+input.loginpage_dialog_submit:hover {
+   color: white;
+}
+
+td.loginbox {
+  margin: 5px 5px 5px 5px;
+}
+
+
+tr.main:nth-child(odd) {
+   background-color: rgba(193,198,200, 0.05);
+}
+
+tr.main:nth-child(even) {
+   background-color: rgba(193,198,200, 0.2);
+}
+
+tr.main, tr.selected {
+   background-color: rgba(193,198,200, 0.7);
+   color: #333333;
+}
+
+table.selected {
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+
+tr.portlet-header {
+   border-top: 3px solid rgba(139,182,0,1);
+   background-color: rgba(193,198,200, 0.2);
+}
+
+td.portlet-header {
+   border: 0px;
+   color: black;
+   font-style: bold;
+}
+
+tr.portlet-window {
+   border-style: none;
+   background-color: white;
+}
+td.portlet-window {
+   border-style: none;
+   background-color: white;
+}
+
+td.check {
+  background-image: url("../gfx/green-check.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
+td.main, td.selected {
+   padding: 5px 5px;
+   color: inherited;
+   border: 1px solid rgba(193,198,200, 1);
+}
+
+td.selected {
+   border-left:2px solid rgba(139,182,0,1);
+   color: black;
+}
+
+header span#trademark {
+      font-style: italic;
+}
+
+nav.mycomosi {
+      width: 100%;
+      border-collapse: collapse;
+      border: none;
+      vertical-align: middle;
+      margin-top: 0px;
+      background-color: white;
+      color: #00617F;
+      border-bottom: solid 1px;
+      border-color: #CCCCCC;
+
+}
+
+li.groupheader, li.productheader {
+   padding: 12px 12px;
+   list-style-type: none;
+}
+
+li#customerlogo {
+   background-image: url("../gfx/maxis.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   width: 100px;
+   height: 40px;
+}
+
+li#mycomosilogo {
+   background-image: url("../gfx/mycom-osi-logo.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+
+li#stretch {
+   flex-grow: 1;
+}
+
+
+li#logo {
+   background-image: url("../gfx/service-management.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   width: 80px;
+   height: 40px;
+   list-style-type: none;
+   display: inline;
+}
+
+li#login {
+   text-transform: none;
+}
+
+li#apps {
+   background-image: url("../gfx/app-launcher-unselected.gif");
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+}
+
+li#apps:hover {
+   background-image: url("../gfx/app-launcher-selected.gif");
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+}
+
+ul.groupheader, ul.productheader {
+   margin-bottom: 0;
+   display: flex;
+   flex-direction: row;
+}
+
+
+
+nav {
+      margin-top: 25px;
+}
+
+li.item {
+      color: #00617F;
+      list-style-type: none;
+      padding: 12px 12px;
+}
+
+li.icon {
+      list-style-type: none;
+      display: inline;
+      padding: 10px 20px;
+}
+
+li.item.selected {
+      color: #DDDDDD;
+      background-color: #84BD00;
+}
+
+li.item.selected:hover {
+      /* MYCOM OSI GREEN */
+      background-color: #84BD00;
+      cursor: default;
+      color: white;
+}
+
+li.item:hover {
+      cursor: pointer;
+      color: rgba(0, 96, 127, 0.8);
+}
+
+.title {
+      margin: 20px 0px 0px 10px;
+      color: #cccccc;
+      font-size: 24px;
+      font-family: OpenSans-Light;
+}
+
+hr {
+      color: #666;
+      height: 1px;
+      border: 0;
+      background-color: #666;
+      margin: 0 25px 10px 10px;
+}
+
+form {
+      margin: 0px 25px 0 10px;
+}
+
+legend {
+      color: #cccccc;
+      font-size: 20px;
+      font-family: OpenSans-Light;
+      border-color: #666;
+}
+
+a.nonbutton {
+   font-style: italic; 
+   color: inherit;
+}
+
+a.nonbutton:hover {
+   font-style: underline; 
+   color: inherit;
+}
+
+p {
+      margin: 0px 25px 0 10px;
+}
+
+.btn {
+      border-radius: 0;
+      background: #F5F5F5;
+}
+
+.btn-primary {
+      font-family: OpenSans-Bold;
+      color: #333333;
+      border-color: #CCCCCC;
+}
+
+.btn-primary:hover {
+      background: #E6E6E6;
+      color: #333333;
+      border-color: #CCCCCC;
+}
+
+.content {
+      background: #FFFFFF;
+      color: #333333;
+}
+
+.content .title {
+      color: #333333;
+}
+
+.content legend {
+      color: #333333;
+}
