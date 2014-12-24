@@ -139,6 +139,17 @@ input.loginpage_dialog_text {
   padding-left: 4px;
 }
 
+/* 
+  Ensure behavior of "placeholder" is identical on all browsers 
+  Chrome automatically adds a gray border on the focused field
+*/
+input.loginpage_dialog_text:focus {
+   margin-top: 19px;
+   margin-bottom: 3px;
+   border: 2px solid rgba(0, 97, 127, 0.1);
+   border-color: #e7e7e7;
+}
+
 
 input.loginpage_dialog_submit {
   display: block;
@@ -150,6 +161,7 @@ input.loginpage_dialog_submit {
   border: none;
   padding: 10px 20px;
   font-family: OpenSans-Regular;
+  font-size: 13;
 }
 
 input.loginpage_dialog_submit:hover {
