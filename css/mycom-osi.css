@@ -147,7 +147,7 @@ input.loginpage_dialog_text {
 input.loginpage_dialog_text:focus {
    margin-top: 19px;
    margin-bottom: 3px;
-   border: 2px solid rgba(0, 97, 127, 0.1);
+   border: 2px solid rgba(0.5, 97, 127, 0.1);
    border-color: #e7e7e7;
 }
 
