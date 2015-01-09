@@ -170,6 +170,38 @@ td.loginbox {
 }
 
 
+/* end login */
+
+td.icon-midsize {
+  font-size: 24px;
+}
+
+td.icon-gray {
+   color: #C0C0C0;
+}
+
+td.icon-gray:hover {
+   color: rgba(0,97,127,0.8);
+}
+
+td.icon-blue {
+   color: rgba(0,97,127,0.75);
+}
+
+td.icon-blue:hover {
+   color: rgba(0,97,127,1);
+}
+
+.icon-red {
+   color: #FF0000;
+}
+
+i.icon-align-top {
+   vertical-align: top;
+   padding-top: 2px;
+}
+
+
 tr.main:nth-child(odd) {
    background-color: rgba(193,198,200, 0.05);
 }
