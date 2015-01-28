@@ -1,0 +1,19 @@
+tr.portlet-header {
+   border-top: 3px solid rgba(139,182,0,1);
+   background-color: rgba(193,198,200, 0.2);
+}
+
+td.portlet-header {
+   border: 0px;
+   color: black;
+   font-style: bold;
+}
+
+tr.portlet-window {
+   border-style: none;
+   background-color: white;
+}
+td.portlet-window {
+   border-style: none;
+   background-color: white;
+}

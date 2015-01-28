@@ -1,0 +1,39 @@
+td.icon-midsize {
+  font-size: 24px;
+}
+
+td.icon-gray {
+   color: #C0C0C0;
+}
+
+td.icon-gray:hover {
+   color: rgba(0,97,127,0.8);
+}
+
+td.icon-blue {
+   color: rgba(0,97,127,0.75);
+}
+
+td.icon-blue:hover {
+   color: rgba(0,97,127,1);
+}
+
+i.icon-red {
+   color: #FF0000;
+}
+
+i.icon-smallsize {
+   font-size: 12px;
+}
+
+i.icon-align-top {
+   vertical-align: top;
+   padding-top: 2px;
+}
+
+i.icon-bottom {
+   position: relative;
+   bottom: 0px;
+   right: 0px;
+}
+
