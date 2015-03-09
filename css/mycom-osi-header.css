@@ -74,24 +74,32 @@ nav.mycomosi {
 
 }
 
-li.groupheader, li.productheader {
-   padding: 15px 15px;
+li#header-product-name, li#header-family-name {
+   padding: 10px 10px;
    list-style-type: none;
+   font-size: 18px;
+   color: #777;
+}
+li#header-product-name {
+   font-family: OpenSans-Regular;
 }
 
-li#customerlogo {
-   background-image: url("../gfx/maxis.png");
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-position: center;
-   width: 100px;
-   height: 40px;
+li#header-family-name {
+   font-family: OpenSans-Bold;
 }
 
-li#mycomosilogo {
+li.header-product-name {
+  font-weight: bold;
+}
+
+li#header-mycomosilogo {
    background-image: url("../gfx/mycom-osi-logo.png");
    background-repeat: no-repeat;
    background-size: auto;
+   margin-top: 5px;
+   margin-left: 5px;
+   width:216px;
+   height:40px;
 }
 
 li#stretch {
@@ -99,33 +107,8 @@ li#stretch {
 }
 
 
-li#logo {
-   background-image: url("../gfx/service-management.png");
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-position: center;
-   width: 80px;
-   height: 40px;
-   list-style-type: none;
-   display: inline;
-}
-
 li#login {
    text-transform: none;
-}
-
-li#apps {
-   background-image: url("../gfx/app-launcher-unselected.gif");
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-position: center;
-}
-
-li#apps:hover {
-   background-image: url("../gfx/app-launcher-selected.gif");
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-position: center;
 }
 
 ul.groupheader, ul.productheader {
