@@ -75,7 +75,7 @@ nav.mycomosi {
 }
 
 li#header-product-name, li#header-family-name {
-   padding: 10px 10px;
+   padding: 10px 5px;
    list-style-type: none;
    font-size: 18px;
    color: #777;
@@ -93,13 +93,13 @@ li.header-product-name {
 }
 
 li#header-mycomosilogo {
-   background-image: url("../gfx/mycom-osi-logo.png");
+   background-image: url("../gfx/mycom-osi-logo-108.png");
    background-repeat: no-repeat;
    background-size: auto;
-   margin-top: 5px;
-   margin-left: 5px;
-   width:216px;
-   height:40px;
+   margin-top: 15px;
+   margin-left: 10px;
+   width:120px;
+   height:20px;
 }
 
 li#stretch {
@@ -136,13 +136,13 @@ li.icon {
 }
 
 li.item.selected {
-      color: #DDDDDD;
+      color: white;
       background-color: #84BD00;
 }
 
 li.item.selected:hover {
       /* MYCOM OSI GREEN */
-      background-color: #84BD00;
+      background-color: rgba(132,189,9, 0.9);
       cursor: default;
       color: white;
 }
@@ -150,7 +150,21 @@ li.item.selected:hover {
 li.item:hover {
       cursor: pointer;
       color: rgba(0, 96, 127, 0.8);
+      background-color: #F0F0F0;
 }
+
+
+
+li.item#login {
+      font-style: italic;
+}
+
+li.item:hover#login {
+      cursor: default;
+      color: inherit;
+      background-color: inherit;
+}
+
 
 .title {
       margin: 20px 0px 0px 10px;
