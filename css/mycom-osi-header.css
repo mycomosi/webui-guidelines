@@ -141,16 +141,12 @@ li.item.selected {
 }
 
 li.item.selected:hover {
-      /* MYCOM OSI GREEN */
-      background-color: rgba(132,189,9, 0.9);
-      cursor: default;
       color: white;
 }
 
 li.item:hover {
       cursor: pointer;
-      color: rgba(0, 96, 127, 0.8);
-      background-color: #F0F0F0;
+      color: rgba(0, 96, 127, 0.5);
 }
 
 
@@ -159,7 +155,7 @@ li.item#login {
       font-style: italic;
 }
 
-li.item:hover#login {
+li.item:hover#login, li.item:hover#stretch {
       cursor: default;
       color: inherit;
       background-color: inherit;
