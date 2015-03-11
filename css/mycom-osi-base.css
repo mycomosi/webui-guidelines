@@ -6,7 +6,8 @@
 
 @font-face {
       font-family: OpenSans-Bold;
-      src: url('../fonts/OpenSans-Bold.ttf');
+      src: url('../fonts/OpenSans-Bold.ttf') format('truetype'),
+           url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype');
 }
 
 @font-face {
